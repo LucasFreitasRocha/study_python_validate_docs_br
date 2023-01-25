@@ -2,7 +2,6 @@ from validate_docbr import CPF
 
 class Cpf:
   def __init__(self,document):
-    print("inciando classe cpf com documento")
     self.lib_cpf = CPF()
     if self.validate_document(document):
       self._document = document
